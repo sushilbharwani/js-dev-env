@@ -1,0 +1,35 @@
+{
+  "name": "js-dev-env",
+  "version": "1.0.0",
+  "description": "front-end Starter Project",
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/server.js",
+    "localtunnel": "lt --port 4000",
+    "share" : "npm-rull-all --parallel start localtunnel"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "license": "gnu",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "localtunnel": "^2.0.1",
+    "@babel/cli": "7.13.0",
+    "@babel/core": "7.13.8",
+    "@babel/types": "7.13.0",
+    "@babel/preset-env": "7.13.8",
+    "express": "4.17.1",
+    "open": "8.0.5",
+    "webpack": "5.4.0"
+  },
+  "author": {
+    "name": "sushil bharwani",
+    "email": "sushil.java@gmail.com",
+    "url": "https://github.com/sushilbharwani/"
+  },
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/sushilbharwani/js-dev-env"
+  }
+}
